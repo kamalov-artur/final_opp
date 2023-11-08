@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index_main.html">На главную</a>
+        <a href="passport.html">Паспорт</a>
+    </nav>
+    <p>Разменять денежную сумму купюрами 500, 100, 10 и монетой 2 рубля, если это возможно.</p>
+    <form id="MoneyExchangeForm">
+        <ul>
+            <li>Сумма: <input id="amount" type="number" value="1000"></li>
+            <li>Результат: <span id="result">не определен</span></li>
+            <li><input type="button" value="Разменять" onclick="exchangeMoney()"></li>
+            <li><input type="button" value="Отправить на сервер" onclick="sendDataToServer()"></li>
+        </ul>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
